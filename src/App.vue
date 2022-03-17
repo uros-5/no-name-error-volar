@@ -1,11 +1,11 @@
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import TestVue from './components/Test.vue';</script>
+import Test from './components/Test.vue';</script>
 
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <TestVue :messages="[]" wsType="home_chat_message" />
+  <Test :messages="[]" wsType="home_chat_message" />
 </template>
 
 <style>
